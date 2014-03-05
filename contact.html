@@ -2,27 +2,132 @@
 <html>
 <head>
     <meta charset="UTF-8"/>
-    <title>Arrow photography</title>
+    <title>Contact Arrow photography</title>
+    <link href="assets/css/styles.css" rel="stylesheet" media="all" />
 </head>
 <body>
-<header>
-    <h1>Arrow Photography</h1>
-
+    <header>
+        <h1><span>Arrow Photography</span></h1>
     <nav>
         <ul class="nav">
-        <li><a href="Index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="portfolio/index.html">Portfolio</a></li>
-        <li><a href="packages/index.html">Packages</a></li>
-        <li><a href="news.html">News</a></li>
-        <li><a href="contact.html">Contact</a></li>
-    </ul></nav>
+            <li><a href="Index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="portfolio/index.html">Portfolio</a></li>
+            <li><a href="packages/index.html">Packages</a></li>
+            <li><a href="news.html">News</a></li>
+            <li><a href="contact.html">Contact</a></li>
+         </ul></nav>
         </header>
-
 <footer>
-<h2>News from Arrow Photography</h2>
+    <h2>Contact Arrow Photography</h2>
+    <table>
+        <caption>Class Contact Details</caption>
+    <thead>
+        <tr>
+            <th scope="col">Name:</th>
+            <th scope="col">Gender:</th>
+            <th scope="col">Email:</th>
+            <th scope="col">Mood:</th>
+        </tr>
+    </thead>
 
+    <tfoot>
+        <tr>
+            <td colspan="4">All information provided is private &amp; confidential</td>
+        </tr>
+    </tfoot>
+    <tbody>
+         <tr>
+            <th scope="row">Paul</th>
+            <td rowspan="5">Male</td>
+            <td>Paul@here.com</td>
+            <td>Happy</td>
+        </tr>
+        <tr>
+            <th scope="row">Chris</th>
+            <td>Chris@mail.com</td>
+            <td>Calm</td>
+        </tr>
+        <tr>
+            <th scope="row">Charles</th>
+            <td>ohsohn@jsd.com</td>
+            <td>Happy</td>
+        </tr>
+        <tr>
+            <th scope="row">Daniel</th>
+                    <td>daniel@mail.com</td>
+                    <td>depressed</td>
+        </tr>
+        <tr>
+            <th scope="row">Guy</th>
+                <td>guy@mail.com</td>
+                <td>Happy</td>
+        </tr>
+        <tr>
+                <th scope="row">Emelie</th>
+                <td rowspan="5">Female</td>
+                <td>emelie@mail.com</td>
+                <td>Happy</td>
+        </tr>
+        <tr>
+                <th scope="row">Madonna</th>
+                <td>Madonna@mail.com</td>
+                <td>Happy</td>
+        </tr>
+        <tr>
+                <th scope="row">Louisa</th>
+                <td>Louisa@mail.com</td>
+                <td>happy</td>
+        </tr>
+        <tr>
+                <th scope="row">kat</th>
+                <td>kat@mail.com</td>
+                <td>Cosy</td>
+        </tr>
+        <tr>
+            <th scope="row">Jess</th>
+            <td>Jess@gmail.com</td>
+            <td>happy</td>
+        </tr>
+    </tbody>
 
+</table>
+    
+    
+        <form method="post" action="http://webdesignstudents.co.uk/students/response.php">
+            <table>
+        <tr><td><label for="contactname">Name:</label></td> <td><input type="text" name="contactname" id="contactname" required/></td></tr>
+        <tr><td><label for="contactemail">Email:</label></td> <td><input type="email" name="contactemail" id="contactemail" required/></td></tr>
+        <tr><td>Gender:</td> 
+            <td><label><input type="radio" name="gender" value="male"/>Male</label>
+             <label><input type="radio" name="gender" value="female" checked/>Female
+        </label></td>
+        </tr>
+        <tr>
+            <td><label for="location">Location: </label></td>
+           <td>
+               <select name="location" id="location">
+                <option value="Brighton">Brighton & Hove</option>
+                <option value="Worthing">Worthing</option>
+                <option value="Eastbourne">Eastbourne</option>
+            </select>
+           </td>
+        </tr>
+        <tr><td><label for="comment">Comment:</label></td>
+           <td><textarea name="comment" id="comment" cols="18" rows="8" required></textarea></td>
+        </tr>
+        <tr>
+            <!-- <td>&nbsp;</td> -->
+            <td colspan="2"><input type="submit" name="submit" value="Send Comment"/></td>
+        </tr>
+
+    </table>
+    </form>
+
+    <ul class="nav">
+        <li><a href="general/terms.html">Terms &amp; Conditions</a></li>
+        <li><a href="general/faq.html"><abbr title="Frequently Asked Questions">FAQ</abbr></a></li>
+    </ul>
 </footer>
 </body>
 </html>
