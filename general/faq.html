@@ -2,9 +2,80 @@
 <html>
 <head>
     <meta charset="UTF-8"/>
-    <title></title>
-</head>
+    <title>Frequently Asked Questions</title>
+    <link href="../assets/css/styles.css" rel="stylesheet" media="all" />
+    <style>
+
+        form.table{
+            display:table;
+            width:600px;
+            margin: 24px auto;
+        }
+        label.row{
+            display:table-row;
+        }
+        .cell{
+            display:table-cell;
+        }
+        span.cell{
+            width:25%;
+        }
+        input,textarea{
+            width:100%;
+        }
+    </style>
+    </head>
 <body>
+<div id="page" class="container">
+<header>
+    <h1><span>Arrow Photography</span></h1>
+    <nav>
+
+        <ul class="nav">
+            <li><a href="../Index.html">Home</a></li>
+            <li><a href="../about.html">About</a></li>
+            <li><a href="../portfolio/index.html">Portfolio</a></li>
+            <li><a href="../packages/index.html">Packages</a></li>
+            <li><a href="../news.html">News</a></li>
+            <li><a href="../contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+<div id="content" class="container">
+<div class="first section">
+    <p><img src="../assets/images/ArrowPhotograhyFrontPage3.jpg" alt="Wedding Photography" /></p>
+
+<form method="get" action="http://webdesignstudents.co.uk/students/respons.php" class="table">
+    <label class="row">
+        <span class="cell">*Name:</span>
+        <input type="text" name="contactname" required class="cell"/>
+        </label>
+    <label class="row">
+    <span class="cell">Email:</span>
+    <input type="text" name="contactname" required class="cell"/>
+    </label>
+        <label class="row">
+            <span class="cell">*Comment:</span>
+            <textarea name="comment" cols="18" rows="8" required class="cell"></textarea>
+            </span>
+        </label>
+    <label class="row">
+        <span class="cell">*Required Information</span>
+        <input type="submit" name="submit" class="cell"/>
+    </label>
+    </form>
+</div>
+</div>
+
+<footer>
+    <nav>
+        <ul class="nav">
+            <li><a href="general/terms.html">Terms &amp; Conditions</a></li>
+            <li><a href="general/faq.html"><abbr title="Frequently Asked Questions">FAQ</abbr></a></li>
+        </ul>
+    </nav>
+</footer>
+</div>
 
 </body>
 </html>
