@@ -4,6 +4,25 @@
     <meta charset="UTF-8"/>
     <title>Arrow photography</title>
     <link href="../assets/css/styles.css" rel="stylesheet" media="all" />
+    <style>
+        p.threecolumns{
+            /*width: 300px;
+            padding: 10px;
+            display: table-cell;
+            */
+            -webkit-column-count: 3;
+            -webkit-column-gap: 20px;
+            -moz-column-count: 3;
+            -moz-column-gap: 20px;
+            -ms-column-count: 3;
+            -ms-column-gap: 20px;
+            -o-column-count: 3;
+            -o-column-gap: 20px;
+            column-count: 3;
+            column-gap: 20px;
+
+        }
+    </style>
 </head>
 <body>
 <header>
@@ -19,21 +38,20 @@
                 </ul>
       </nav>
 </header>
+
 <section class="first">
             <h2 id="top">Arrow Photography Available Packages</h2>
 
     <p><img src="../assets/images/ArrowPhotograhyPackages1.jpg" alt="Wedding Photography" /></p>
                  <p><img src="../assets/images/ArrowPhotograhyPackages2.jpg" alt="Wedding Photography" /></p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    <p class="threecolums">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                        Donec vel urna eu augue sollicitudin interdum sed non libero.
                        Vestibulum facilisis lacus sit amet mi egestas, eu blandit neque imperdiet.
                        Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere
                        cubilia Curae; Sed ac nisl rutrum neque iaculis elementum. Cras dui massa,
                        tempor id odio sed, faucibus adipiscing eros. Maecenas a suscipit eros,
                        vitae accumsan dolor. Duis pulvinar purus urna, ac consequat diam consectetur a.</p>
-    </section>
-<section class="second">
-                <h3>Wedding Packages</h3>
+                Wedding Packages
             <h4><em>Standard</em> Wedding Package</h4>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
            Donec vel urna eu augue sollicitudin interdum sed non libero.
@@ -63,7 +81,7 @@
                     <li><p><strong>Price: £1,695.00</strong></p></li>
          </ul>
 
-       <section class="third">
+<p class="threecolumns">
             <h3>Portrait Packages</h3>
                 <h4><em>Standard</em> Portrait Package</h4>
                   <p>Package includes:</p>
@@ -77,7 +95,7 @@
                <li><strong>Price: £695.00</strong></li>
             </ul>
 
-       </section>
+
         <h4><em>Premier</em> Portrait Package</h4>
             <p>Package includes:</p>
                 <ul>
@@ -88,6 +106,8 @@
                     <li>Convenient handbag album to &quot;show friends&quot;</li>
              <li><p><strong>Price: £895.00</strong></p></li>
                </ul>
+
+
 <footer>
          <p><a href="index.html#top">Top</a></p>
 </footer>
