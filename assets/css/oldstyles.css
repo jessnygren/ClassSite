@@ -1,0 +1,112 @@
+/**
+  * Reset or normalize used to standardize browser display
+  **/
+@import url("normalize.css");
+
+/* Redefine existing HTML styles */
+body {
+    font: smaller/160% sans-serif;
+    color: #999999;
+   margin: 0 auto;
+}
+header,footer{
+    clear:both;
+}
+
+/*a:link{
+
+}
+a:visited{
+
+}
+a:active{
+
+}
+a:hover{
+    color: #FF0000;
+}*/
+
+nav ul{
+    text-align:center;
+    list-style:none;
+    padding: 0;
+    height: 24px;
+    margin: 24px 0;
+}
+nav li {
+    width:46%;
+    float: left;
+    margin: 0 2%;
+    /*text-align: center;
+    margin-right: 10px;
+    margin-left: 10px;
+    */
+}
+div img {
+    width: 100% ;
+}
+h1{
+    padding: 24px 10px;
+}
+nav a {
+    text-decoration:none;
+    background-color: #d2fff0;
+    display: block;
+    /*padding-top: 5px;
+    padding-bottom:5px;
+    */
+    padding: 5px 0;
+
+}
+nav a:hover {
+    background-color: #3a9897;
+    color: #333333;
+}
+/*footer ul {
+    list-style:none;
+    padding-left: 0;
+    padding-right: 0;
+}*/
+footer li {
+    width: 46%;
+    /*float: left;
+    */
+    /*margin: 0 10px;
+*/
+}
+footer p{
+    padding: 10px;
+}
+section .subsection{
+    width:96%;
+    margin: 24px 2%;
+    float:left;
+}
+/*Medium Screens */
+@media(min-width:768px){
+    nav li{
+        width:12.66%;
+    }
+footer li {
+        width:46%;
+}
+/*Large Screens*/
+@media(min-width: 940px){
+    body{
+        max-width:960px;
+    }
+    section .subsection{
+        width:46%
+    }
+}
+
+}
+
+
+/*Class based display */
+
+
+/* ID based styles */
+
+
+/* Style changes for larger displays or devices */

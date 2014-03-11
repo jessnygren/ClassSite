@@ -1,112 +1,36 @@
-/**
-  * Reset or normalize used to standardize browser display
-  **/
-@import url("normalize.css");
-
-/* Redefine existing HTML styles */
+@import 'reset.css';
 body {
-    font: smaller/160% sans-serif;
-    color: #999999;
-   margin: 0 auto;
+  width: 960px;
+  color: #996633;
+  font-family: sans-serif;
 }
-header,footer{
-    clear:both;
+header {
+  -webkit-background-image: linear-gradient(#ffffff, #000000);
+  -moz-background-image: linear-gradient(#ffffff, #000000);
+  -ms-background-image: linear-gradient(#ffffff, #000000);
+  -o-background-image: linear-gradient(#ffffff, #000000);
+  background-image: linear-gradient(#ffffff, #000000);
 }
-
-/*a:link{
-
+header h1 {
+  color: #392613;
 }
-a:visited{
-
+header nav {
+  -webkit-background-image: linear-gradient(#d2a679, #392613);
+  -moz-background-image: linear-gradient(#d2a679, #392613);
+  -ms-background-image: linear-gradient(#d2a679, #392613);
+  -o-background-image: linear-gradient(#d2a679, #392613);
+  background-image: linear-gradient(#d2a679, #392613);
 }
-a:active{
-
+header nav ul {
+  height: 24px;
 }
-a:hover{
-    color: #FF0000;
-}*/
-
-nav ul{
-    text-align:center;
-    list-style:none;
-    padding: 0;
-    height: 24px;
-    margin: 24px 0;
+header nav ul li {
+  width: 160px;
+  float: left;
 }
-nav li {
-    width:46%;
-    float: left;
-    margin: 0 2%;
-    /*text-align: center;
-    margin-right: 10px;
-    margin-left: 10px;
-    */
+header nav ul li a {
+  color: #392613;
+  text-decoration: none;
+  padding: 4px 0;
+  display: block;
 }
-div img {
-    width: 100% ;
-}
-h1{
-    padding: 24px 10px;
-}
-nav a {
-    text-decoration:none;
-    background-color: #d2fff0;
-    display: block;
-    /*padding-top: 5px;
-    padding-bottom:5px;
-    */
-    padding: 5px 0;
-
-}
-nav a:hover {
-    background-color: #3a9897;
-    color: #333333;
-}
-/*footer ul {
-    list-style:none;
-    padding-left: 0;
-    padding-right: 0;
-}*/
-footer li {
-    width: 46%;
-    /*float: left;
-    */
-    /*margin: 0 10px;
-*/
-}
-footer p{
-    padding: 10px;
-}
-section .subsection{
-    width:96%;
-    margin: 24px 2%;
-    float:left;
-}
-/*Medium Screens */
-@media(min-width:768px){
-    nav li{
-        width:12.66%;
-    }
-footer li {
-        width:46%;
-}
-/*Large Screens*/
-@media(min-width: 940px){
-    body{
-        max-width:960px;
-    }
-    section .subsection{
-        width:46%
-    }
-}
-
-}
-
-
-/*Class based display */
-
-
-/* ID based styles */
-
-
-/* Style changes for larger displays or devices */
