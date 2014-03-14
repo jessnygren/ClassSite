@@ -1,0 +1,36 @@
+@import 'reset.css';
+body {
+  width: 960px;
+  color: #996633;
+  font-family: sans-serif;
+}
+header {
+  -webkit-background-image: linear-gradient(#ffffff, #000000);
+  -moz-background-image: linear-gradient(#ffffff, #000000);
+  -ms-background-image: linear-gradient(#ffffff, #000000);
+  -o-background-image: linear-gradient(#ffffff, #000000);
+  background-image: linear-gradient(#ffffff, #000000);
+}
+header h1 {
+  color: #392613;
+}
+header nav {
+  -webkit-background-image: linear-gradient(#d2a679, #392613);
+  -moz-background-image: linear-gradient(#d2a679, #392613);
+  -ms-background-image: linear-gradient(#d2a679, #392613);
+  -o-background-image: linear-gradient(#d2a679, #392613);
+  background-image: linear-gradient(#d2a679, #392613);
+}
+header nav ul {
+  height: 24px;
+}
+header nav ul li {
+  width: 160px;
+  float: left;
+}
+header nav ul li a {
+  color: #392613;
+  text-decoration: none;
+  padding: 4px 0;
+  display: block;
+}
